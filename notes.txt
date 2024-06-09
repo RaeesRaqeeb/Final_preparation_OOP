@@ -1,0 +1,53 @@
+Pointers
+
+-Whenever you make pointer variable in the class you have 
+to use the new keyword to allocate memory address to it.
+
+
+
+Virtual Destructor
+
+-Virtural Destructor is used when you point toward the
+object of derived class with base class pointer then
+at the end of program the destructor of base class
+is called only. And the object of derived class stayed in the 
+memory. To call the destructor of derived class also we have to
+make virtual destructor of base class.
+
+
+2D pointer of array
+
+int **ptr;
+ptr= new int[r];
+for(int i=0;i<r;i++)
+{
+    ptr[i]=new int [c];
+}
+
+-File handling 
+fstream header file 
+
+ofstream for writing to file
+
+ifstream to reading from file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
